@@ -192,8 +192,8 @@ export {
   integrationsManager
 };
 
-// Start server if this file is run directly
-if (process.argv[1] && process.argv[1].endsWith('index.js')) {
+// Start server if this file is run directly or via bin/run.js
+if (process.argv[1] && (process.argv[1].endsWith('index.js') || process.argv[1].endsWith('run.js'))) {
   startServer().catch((error) => {
     
     process.exit(1);
