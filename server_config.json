@@ -1,0 +1,1 @@
+{"serverConfig": {"mcpServers": {"context-engineering": {"command": "npx", "args": ["-y", "@iflow-mcp/croakingtoad-context-engineering-mcp-server"], "values": {}}}}}
